@@ -1,0 +1,6 @@
+FROM nginx:alpine
+
+WORKDIR /usr/share/nginx/html
+COPY index.html index.html
+#Newio
+EXPOSE 80
